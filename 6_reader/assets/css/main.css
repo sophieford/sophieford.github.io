@@ -18,6 +18,10 @@ h1{
     color: grey;
 }
 
+body.change-style1 h1 {
+  color: red;
+}
+
 h4{
   font-size: 60px;
   font-family: comic sans;
@@ -31,6 +35,10 @@ h3{
 a{
   font-family: bebas neue;
   font-size: 30px;
+}
+
+li {
+  list-style: circle;
 }
 
 .tbeautiful{
@@ -57,6 +65,10 @@ a{
   background: white;
 }
 
+body.change-style1 .timportance {
+  background: blue;
+}
+
 .tusability{
   margin-left: 260px;
   margin-right: 260px;
@@ -70,7 +82,7 @@ a{
   background: black;
   bottom:0px;
   text-align: center;
-  font-size: 5vw;
+  font-size: 3vw;
   font-family: helvetica, arial;
   color: mistyrose;
   letter-spacing: -0.05em;
@@ -81,42 +93,42 @@ a{
 /* MY NAVIGATION FONT AND STYLE */
 
 
-}
-.nav{
-width: 100%;
+
+.menu{
+width: 250px;
 position: fixed;
 top: 0px;
-left: 0px;
-z-index:2;
+z-index:20;
 padding-top: 5px;
 overflow: hidden;
 transition: 1s;
-}
-.nav.active {
-  width: 260px;
-  background: mistyrose;
-  padding: 60px;
+background-color: White;
+height: 100vh;
 }
 
-.other{
-width: 8%;
-position: fixed;
-align-content: right;
-z-index:2;
-padding-top: 5px;
-overflow: hidden;
-transition: 1s;
+.m-styles {
+left: -250px;
 }
-.other.active {
-  width: 260px;
-  background: mistyrose;
-  padding: 60px;
+
+.m-styles.active {
+  left: 0px;
+  transition: 1s;
 }
+
+.m-texts {
+right: -250px;
+}
+
+.m-texts.active {
+  right: 0px;
+  transition: 1s;
+}
+
 
 /* MY BUTTON FONT AND STYLE */
 
 .button {
-font-family: bebas neue, helvetica;
+font-family: helvetica;
 border-radius: 5px;
 padding:8px;
 display: inline-block;
@@ -127,7 +139,7 @@ background-color: black;
 cursor: pointer;
 }
 
-.menu {
+.b-styles {
   position: fixed;
   border: 2px solid white;
   color: mistyrose;
@@ -143,7 +155,9 @@ cursor: pointer;
   border-radius: 5px;
 }
 
-.other {
+
+
+.b-texts {
   position: fixed;
   border: 2px solid white;
   color: mistyrose;

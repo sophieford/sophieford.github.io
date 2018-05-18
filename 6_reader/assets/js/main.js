@@ -1,18 +1,31 @@
 $(document).ready(function() {
 
-  $(".menu").mouseenter(function() {
-      $(".nav").addClass("active");
-    });
-      $(".nav").mouseleave(function() {
-      $(".nav").removeClass("active");
+  $(".b-styles").mouseenter(function() {
+      $(".m-styles").addClass("active");
+
     });
 
-  $(".other").mouseenter(function() {
-        $(".othernav").addClass("active");
+    $(".b-texts").mouseenter(function() {
+        $(".m-texts").addClass("active");
+
       });
-        $(".othernav").mouseleave(function() {
-        $(".othernav").removeClass("active");
-      });
+
+  $(".menu").mouseleave(function() {
+      $(this).removeClass("active");
+    });
+
+    $('.b-style1').click(function() {
+      $('body').toggleClass('change-style1');
+    });
+
+    $('.b-style2').click(function() {
+      $('body').toggleClass('change-style2');
+    });
+
+    $('.b-style3').click(function() {
+      $('body').toggleClass('change-style2');
+    });
+
 
 
 // Add jQuery here
