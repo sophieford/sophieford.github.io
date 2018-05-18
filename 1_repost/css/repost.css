@@ -1,0 +1,15 @@
+body {
+  font-size:20px;
+  font-family: century gothic;
+  text-align: center;
+  border-style: double;
+  border-width: 10px;
+  border-color: pink;
+}
+
+h1{
+  font-size: 40px;
+  color: pink;
+  font-family: bebas neue;
+  text-align: center;
+}

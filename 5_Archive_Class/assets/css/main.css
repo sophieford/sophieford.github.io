@@ -1,0 +1,88 @@
+body {
+background-color: lightgreen;
+text-align: center;
+font-family: century gothic;
+font-size:30px;
+}
+
+/* MY HEADER FONT AND STYLE */
+
+a{
+  font-family: bebas neue;
+  font-size: 30px;
+}
+
+.header {
+  position: fixed;
+  background: black;
+  bottom:0px;
+  text-align: center;
+  font-size: 8vw;
+  text-transform: uppercase;
+  font-family: bebas neue, helvetica, arial;
+  color: lightgreen;
+  letter-spacing: -0.05em;
+  width:100%;
+  text-align: center;
+  text-shadow: 5px 5px darkgreen;
+}
+
+/* MY NAVIGATION FONT AND STYLE */
+
+
+}
+.nav{
+width: 100%;
+position: fixed;
+top: 0px;
+left: 0px;
+z-index:2;
+padding-top: 5px;
+}
+
+/* MY BUTTON FONT AND STYLE */
+
+.button {
+font-family: DK Bocadillo, Typo Grotesk, biko, helvetica;
+border-radius: 5px;
+padding:8px;
+display: inline-block;
+margin: 2px;
+font-size: 20px;
+color: lightgreen;
+background-color: darkgreen;
+cursor: pointer;
+}
+
+/* SPECIAL BUTTONS */
+
+.b-showall {
+  color: lightgreen;
+  background-color: black;
+}
+
+/* MY BASE WIDTH FOR ALL ITEMS */
+
+.item {
+  float: left;
+  width:25%;
+}
+
+/* STOP IMAGES FROM GOING OUTSIDE THEIR WIDTH */
+
+.item img {
+  max-width:100%;
+  padding: 10px;
+  height: 350px;
+  width: 350px;
+}
+
+/* HELPER CLASSES FOR JS TO HIDE AND SHOW */
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

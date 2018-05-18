@@ -1,0 +1,33 @@
+body {
+  font-size:20px;
+  font-family: century gothic;
+  text-align: center;
+  border-style: double;
+  border-width: 10px;
+  border-color: pink;
+}
+
+h1{
+  font-size: 50px;
+  color: pink;
+  font-family: bebas neue;
+  text-align: center;
+}
+
+h2{
+  font-size: 15px;
+  color: black;
+  font-family: helvetica;
+  font-style: italic;
+}
+h3{
+  font-size: 9px;
+  color: black;
+  font-family: helvetica;
+}
+h4{
+  font-size: 40px;
+  color: black;
+  font-family: bebas neue;
+  text-align: center;
+}

@@ -1,0 +1,193 @@
+body {
+background-color: white;
+font-family: helvetica;
+font-size:15px;
+text-align: center;
+}
+h2{
+  font-size: helvetica;
+  font-weight: bold;
+  font-size: 20px;
+}
+h1{
+  font-size: 30px;
+  font-family: helvetica;
+  text-align: center;
+  background: white;
+    line-height: 120%;
+    color: grey;
+}
+
+h4{
+  font-size: 60px;
+  font-family: comic sans;
+}
+h3{
+  font-size: 15px;
+  font-family: comic sans;
+}
+/* MY HEADER FONT AND STYLE */
+
+a{
+  font-family: bebas neue;
+  font-size: 30px;
+}
+
+.tbeautiful{
+  margin-left: 260px;
+  margin-right: 260px;
+  text-align: left;
+  line-height: 180%;
+  background: White;
+}
+
+.taesthetics{
+  margin-left: 260px;
+  margin-right: 260px;
+  text-align: left;
+  line-height: 180%;
+  background: White;
+}
+
+.timportance{
+  margin-left: 260px;
+  margin-right: 260px;
+  text-align: left;
+  line-height: 180%;
+  background: white;
+}
+
+.tusability{
+  margin-left: 260px;
+  margin-right: 260px;
+  text-align: left;
+  line-height: 180%;
+  background: White;
+}
+
+.header {
+  position: fixed;
+  background: black;
+  bottom:0px;
+  text-align: center;
+  font-size: 5vw;
+  font-family: helvetica, arial;
+  color: mistyrose;
+  letter-spacing: -0.05em;
+  width:100%;
+  text-align: center;
+}
+
+/* MY NAVIGATION FONT AND STYLE */
+
+
+}
+.nav{
+width: 100%;
+position: fixed;
+top: 0px;
+left: 0px;
+z-index:2;
+padding-top: 5px;
+overflow: hidden;
+transition: 1s;
+}
+.nav.active {
+  width: 260px;
+  background: mistyrose;
+  padding: 60px;
+}
+
+.other{
+width: 8%;
+position: fixed;
+align-content: right;
+z-index:2;
+padding-top: 5px;
+overflow: hidden;
+transition: 1s;
+}
+.other.active {
+  width: 260px;
+  background: mistyrose;
+  padding: 60px;
+}
+
+/* MY BUTTON FONT AND STYLE */
+
+.button {
+font-family: bebas neue, helvetica;
+border-radius: 5px;
+padding:8px;
+display: inline-block;
+margin: 2px;
+font-size: 30px;
+color: white;
+background-color: black;
+cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  border: 2px solid white;
+  color: mistyrose;
+  text-shadow: 1px 1px black;
+  left: 3px;
+  top: 3px;
+  padding: 10px;
+  z-index: 2;
+  font-family: bebas neue, helvetica;
+  font-size: 40px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.other {
+  position: fixed;
+  border: 2px solid white;
+  color: mistyrose;
+  text-shadow: 1px 1px black;
+  right: 3px;
+  top: 3px;
+  padding: 10px;
+  z-index: 2;
+  font-family: bebas neue, helvetica;
+  font-size: 40px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+/* SPECIAL BUTTONS */
+
+.b-showall {
+  color: red;
+  background-color: black;
+}
+
+/* MY BASE WIDTH FOR ALL ITEMS */
+
+.item {
+  float: left;
+}
+
+/* STOP IMAGES FROM GOING OUTSIDE THEIR WIDTH */
+
+.item img {
+  max-width:100%;
+  padding: 10px;
+  width: 370px;
+}
+
+/* HELPER CLASSES FOR JS TO HIDE AND SHOW */
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
