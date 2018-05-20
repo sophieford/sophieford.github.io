@@ -26,8 +26,28 @@ $(document).ready(function() {
       $('body').toggleClass('change-style2');
     });
 
+    $('.b-red').click(function() {
+      $('body').toggleClass('change-red');
+    });
 
-
+    $('.b-blue').click(function() {
+      $('body').toggleClass('change-blue');
+    });
+    $('.b-green').click(function() {
+      $('body').toggleClass('change-green');
+    });
+    $('.b-pink').click(function() {
+      $('body').toggleClass('change-pink');
+    });
+    $('.b-yellow').click(function() {
+      $('body').toggleClass('change-yellow');
+    });
+    $('.b-purple').click(function() {
+      $('body').toggleClass('change-purple');
+    });
+    $('.b-orange').click(function() {
+      $('body').toggleClass('change-orange');
+    });
 // Add jQuery here
 
 // EACH CLICK FUCNTION TARGETS THE correct .b-tag FROM THE NAVIGATION

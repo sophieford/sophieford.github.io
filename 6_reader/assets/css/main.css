@@ -11,20 +11,17 @@ h2{
 }
 h1{
   font-size: 30px;
-  font-family: helvetica;
+  font-family: bebas neue, bebas, helvetica;
   text-align: center;
   background: white;
-    line-height: 120%;
+  line-height: 120%;
     color: grey;
-}
-
-body.change-style1 h1 {
-  color: red;
 }
 
 h4{
   font-size: 60px;
   font-family: comic sans;
+  color: black;
 }
 h3{
   font-size: 15px;
@@ -33,12 +30,12 @@ h3{
 /* MY HEADER FONT AND STYLE */
 
 a{
-  font-family: bebas neue;
+  font-family: bebas neue, bebas,helvetica;
   font-size: 30px;
 }
 
 li {
-  list-style: circle;
+  list-style: disc;
 }
 
 .tbeautiful{
@@ -46,7 +43,7 @@ li {
   margin-right: 260px;
   text-align: left;
   line-height: 180%;
-  background: White;
+  background: white;
 }
 
 .taesthetics{
@@ -54,7 +51,7 @@ li {
   margin-right: 260px;
   text-align: left;
   line-height: 180%;
-  background: White;
+  background: white;
 }
 
 .timportance{
@@ -65,28 +62,25 @@ li {
   background: white;
 }
 
-body.change-style1 .timportance {
-  background: blue;
-}
-
 .tusability{
   margin-left: 260px;
   margin-right: 260px;
   text-align: left;
   line-height: 180%;
-  background: White;
+  background: white;
 }
 
 .header {
   position: fixed;
-  background: black;
+  background: white;
   bottom:0px;
   text-align: center;
-  font-size: 3vw;
-  font-family: helvetica, arial;
-  color: mistyrose;
+  font-size: 3.5vw;
+  font-family: master of break, bebas neue, bebas, helvetica, arial;
+  color: black;
   letter-spacing: -0.05em;
   width:100%;
+  padding: 15px;
   text-align: center;
 }
 
@@ -102,7 +96,7 @@ z-index:20;
 padding-top: 5px;
 overflow: hidden;
 transition: 1s;
-background-color: White;
+background-color: white;
 height: 100vh;
 }
 
@@ -128,45 +122,64 @@ right: -250px;
 /* MY BUTTON FONT AND STYLE */
 
 .button {
-font-family: helvetica;
+font-family: bebas neue, bebas,helvetica;
 border-radius: 5px;
-padding:8px;
+padding: 10px;
 display: inline-block;
 margin: 2px;
 font-size: 30px;
 color: white;
-background-color: black;
+background-color: darkgrey;
 cursor: pointer;
 }
 
+.b-red {
+  color: red;
+}
+.b-blue {
+  color: blue;
+}
+.b-yellow {
+  color: yellow;
+}
+.b-pink {
+  color: magenta;
+}
+.b-purple {
+  color: purple;
+}
+.b-orange {
+  color: coral;
+}
+.b-green {
+  color: green;
+}
+
+
 .b-styles {
   position: fixed;
-  border: 2px solid white;
-  color: mistyrose;
-  text-shadow: 1px 1px black;
+  color: White;
+  text-shadow: 2px 2px grey;
   left: 3px;
   top: 3px;
   padding: 10px;
   z-index: 2;
-  font-family: bebas neue, helvetica;
+  font-family: master of break, bebas neue, bebas, helvetica;
   font-size: 40px;
   background-color: black;
   cursor: pointer;
   border-radius: 5px;
 }
 
-
-
 .b-texts {
   position: fixed;
-  border: 2px solid white;
-  color: mistyrose;
-  text-shadow: 1px 1px black;
+  color: White;
+  text-shadow: 2px 2px grey;
   right: 3px;
   top: 3px;
   padding: 10px;
   z-index: 2;
-  font-family: bebas neue, helvetica;
+  font-family: master of break, bebas neue, bebas, helvetica;
   font-size: 40px;
   background-color: black;
   cursor: pointer;
@@ -193,7 +206,7 @@ cursor: pointer;
 .item img {
   max-width:100%;
   padding: 10px;
-  width: 370px;
+  width: 800px;
 }
 
 /* HELPER CLASSES FOR JS TO HIDE AND SHOW */
@@ -204,4 +217,329 @@ cursor: pointer;
 
 .hide {
   display: none;
+}
+
+body.change-red h1 {
+  color: maroon;
+  background: red;
+}
+body.change-red {
+  background-color: red;
+  color: white;
+}
+body.change-red .header{
+  background-color: red;
+}
+body.change-red .tbeautiful{
+  background-color: red;
+}
+body.change-red .timportance{
+  background-color: red;
+}
+body.change-red .taesthetics{
+  background-color: red;
+}
+body.change-red .tusability{
+  background-color: red;
+}
+body.change-red .b-texts{
+  background-color: salmon;
+  text-shadow: 2px 2px maroon;
+}
+body.change-red .b-styles{
+  background-color: salmon;
+  text-shadow: 2px 2px maroon;
+}
+body.change-red .button{
+  background:salmon;
+}
+body.change-red .menu{
+  background:maroon;
+}
+body.change-red h2{
+  color:maroon;
+}
+body.change-red h4{
+  color: maroon;
+}
+
+
+
+
+
+body.change-blue h1 {
+  color: navy;
+  background: blue;
+}
+body.change-blue {
+  background-color: blue;
+  color: white;
+}
+body.change-blue .header{
+  background-color: blue;
+}
+body.change-blue .tbeautiful{
+  background-color: blue;
+}
+body.change-blue .timportance{
+  background-color: blue;
+}
+body.change-blue .taesthetics{
+  background-color: blue;
+}
+body.change-blue .tusability{
+  background-color: blue;
+}
+body.change-blue .b-texts{
+  background-color: lightblue;
+  text-shadow: 2px 2px navy;
+}
+body.change-blue .b-styles{
+  background-color: lightblue;
+  text-shadow: 2px 2px navy;
+}
+body.change-blue .button{
+  background:steelblue;
+}
+body.change-blue .menu{
+  background:navy;
+}
+body.change-blue h2{
+  color:navy;
+}
+body.change-blue h4{
+  color: lightblue;
+}
+
+
+
+
+body.change-green h1 {
+  color: green;
+  background: lightgreen;
+}
+body.change-green {
+  background-color: lightgreen;
+  color: black;
+}
+body.change-green .header{
+  background-color: lightgreen;
+}
+body.change-green .tbeautiful{
+  background-color: lightgreen;
+}
+body.change-green .timportance{
+  background-color: lightgreen;
+}
+body.change-green .taesthetics{
+  background-color: lightgreen;
+}
+body.change-green .tusability{
+  background-color: lightgreen;
+}
+body.change-green .b-texts{
+  background-color: palegreen;
+  text-shadow: 2px 2px green;
+}
+body.change-green .b-styles{
+  background-color: palegreen;
+  text-shadow: 2px 2px green;
+}
+body.change-green .button{
+  background:yellowgreen;
+}
+body.change-green .menu{
+  background:green;
+}
+body.change-green h4{
+  color: green;
+}
+
+
+
+
+
+
+body.change-yellow h1 {
+  color: gold;
+  background: lightyellow;
+}
+body.change-yellow {
+  background-color: lightyellow;
+  color: black;
+}
+body.change-yellow .header{
+  background-color: lightyellow;
+  color: gold;
+}
+body.change-yellow .tbeautiful{
+  background-color: lightyellow;
+}
+body.change-yellow .timportance{
+  background-color: lightyellow;
+}
+body.change-yellow .taesthetics{
+  background-color: lightyellow;
+}
+body.change-yellow .tusability{
+  background-color: lightyellow;
+}
+body.change-yellow .b-texts{
+  background-color: palegoldenrod;
+  text-shadow: 2px 2px gold;
+}
+body.change-yellow .b-styles{
+  background-color: palegoldenrod;
+  text-shadow: 2px 2px gold;
+}
+body.change-yellow .button{
+  background:palegoldenrod;
+}
+body.change-yellow .menu{
+  background:gold;
+}
+body.change-yellow h4{
+  color: gold;
+}
+
+
+
+
+body.change-pink h1 {
+  color: pink;
+  background: mistyrose;
+}
+body.change-pink{
+  background-color: mistyrose;
+  color: black;
+}
+body.change-pink .header{
+  background-color: mistyrose;
+  color: hotpink;
+}
+body.change-pink .tbeautiful{
+  background-color: mistyrose;
+}
+body.change-pink .timportance{
+  background-color: mistyrose;
+}
+body.change-pink .taesthetics{
+  background-color: mistyrose;
+}
+body.change-pink .tusability{
+  background-color: mistyrose;
+}
+body.change-pink .b-texts{
+  background-color: hotpink;
+  text-shadow: 2px 2px pink;
+}
+body.change-pink .b-styles{
+  background-color: hotpink;
+  text-shadow: 2px 2px pink;
+}
+body.change-pink .button{
+  background:pink;
+}
+body.change-pink .menu{
+  background:magenta;
+}
+body.change-pink h4{
+  color: pink;
+}
+
+
+
+
+
+body.change-purple h1 {
+  color: purple;
+  background: lavender;
+}
+body.change-purple {
+  background-color: lavender;
+  color: purple;
+}
+body.change-purple .header{
+  background-color: lavender;
+  color: purple;
+}
+body.change-purple .tbeautiful{
+  background-color: lavender;
+}
+body.change-purple .timportance{
+  background-color: lavender;
+}
+body.change-purple .taesthetics{
+  background-color: lavender;
+}
+body.change-purple .tusability{
+  background-color: lavender;
+}
+body.change-purple .b-texts{
+  background-color: mediumorchid;
+  text-shadow: 2px 2px darkorchid;
+}
+body.change-purple .b-styles{
+  background-color: mediumorchid;
+  text-shadow: 2px 2px darkorchid;
+}
+body.change-purple .button{
+  background:blueviolet;
+}
+body.change-purple .menu{
+  background:mediumorchid;
+}
+body.change-purple h4{
+  color: purple;
+}
+body.change-purple h2{
+  color: darkorchid;
+}
+
+
+
+
+body.change-orange h1 {
+  color: orange;
+  background: peachpuff;
+}
+body.change-orange{
+  background-color: peachpuff;
+  color: black;
+}
+body.change-orange .header{
+  background-color: peachpuff;
+  color: coral;
+}
+body.change-orange .tbeautiful{
+  background-color: peachpuff;
+}
+body.change-orange .timportance{
+  background-color: peachpuff;
+}
+body.change-orange .taesthetics{
+  background-color: peachpuff;
+}
+body.change-orange .tusability{
+  background-color: peachpuff;
+}
+body.change-orange .b-texts{
+  background-color: orange;
+  text-shadow: 2px 2px darkorange;
+}
+body.change-orange .b-styles{
+  background-color: orange;
+  text-shadow: 2px 2px darkorange;
+}
+body.change-orange .button{
+  background:orange;
+}
+body.change-orange .menu{
+  background:darkorange;
+}
+body.change-orange h4{
+  color: coral;
+}
+body.change-orange h2{
+  color: orange;
 }
