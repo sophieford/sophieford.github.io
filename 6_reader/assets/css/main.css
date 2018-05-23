@@ -154,6 +154,18 @@ cursor: pointer;
 .b-green {
   color: green;
 }
+.b-smalltext {
+  color: black;
+  font-size: 10px;
+}
+.b-mediumtext {
+  color: black;
+  font-size: 25px;
+}
+.b-largetext {
+  color: black;
+  font-size: 45px;
+}
 
 
 .b-styles {
@@ -262,7 +274,9 @@ body.change-red h2{
 body.change-red h4{
   color: maroon;
 }
-
+body.change-red .b-orange{
+  color: NavajoWhite;
+}
 
 
 
@@ -542,4 +556,38 @@ body.change-orange h4{
 }
 body.change-orange h2{
   color: orange;
+}
+
+
+
+
+
+body.change-smalltext {
+  font-size: 8px;
+}
+body.change-smalltext h1 {
+font-size: 10px;
+}
+body.change-smalltext h2 {
+font-size: 10px;
+}
+body.change-largetext {
+  font-size: 40px;
+}
+body.change-largetext h1 {
+font-size: 40px;
+}
+body.change-largetext h2 {
+font-size: 40px;
+}
+
+
+body.change-mediumtext {
+  font-size: 15px;
+}
+body.change-mediumtext h1 {
+font-size: 30px;
+}
+body.change-mediumtext h2 {
+font-size: 20px;
 }

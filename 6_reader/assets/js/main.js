@@ -48,6 +48,15 @@ $(document).ready(function() {
     $('.b-orange').click(function() {
       $('body').toggleClass('change-orange');
     });
+    $('.b-smalltext').click(function() {
+      $('body').toggleClass('change-smalltext');
+    });
+    $('.b-mediumtext').click(function() {
+      $('body').toggleClass('change-mediumtext');
+    });
+    $('.b-largetext').click(function() {
+      $('body').toggleClass('change-largetext');
+    });
 // Add jQuery here
 
 // EACH CLICK FUCNTION TARGETS THE correct .b-tag FROM THE NAVIGATION
