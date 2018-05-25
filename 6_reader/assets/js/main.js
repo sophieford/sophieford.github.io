@@ -37,12 +37,15 @@ $(document).ready(function() {
       $('body').toggleClass('change-pink');
     });
     $('.b-yellow').click(function() {
+      $("body").removeClass();
       $('body').toggleClass('change-yellow');
     });
     $('.b-purple').click(function() {
+      $("body").removeClass();
       $('body').toggleClass('change-purple');
     });
     $('.b-orange').click(function() {
+      $("body").removeClass();
       $('body').toggleClass('change-orange');
     });
     $('.b-smalltext').click(function() {

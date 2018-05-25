@@ -3,6 +3,24 @@ background-color: white;
 font-family: helvetica;
 font-size:15px;
 text-align: center;
+background: repeating-linear-gradient(-45deg,white,white 20px,whitesmoke 20px,whitesmoke 40px);
+    background-size: 56px 56px; /* This is unique for this background, need to find a pattern and develop a formula */
+    -webkit-animation: slide 70s infinite linear forwards;
+    -moz-animation: slide 70s infinite linear forwards;
+    animation: slide 70s infinite linear forwards;
+}
+@-webkit-keyframes slide {
+    0% { background-position: 0% 0; }
+    100% { background-position: 100% 0; }
+}
+@-moz-keyframes slide {
+    0% { background-position: 0% 0; }
+    100% { background-position: 100% 0; }
+}
+@keyframes slide {
+    0% { background-position: 0% 0; }
+    100% { background-position: 100% 0; }
+}
 }
 h2{
   font-size: helvetica;
@@ -32,6 +50,8 @@ h3{
 a{
   font-family: bebas neue, bebas,helvetica;
   font-size: 30px;
+  color:black;
+  text-decoration: none;
 }
 
 li {
@@ -44,6 +64,7 @@ li {
   text-align: left;
   line-height: 180%;
   background: white;
+  padding: 20px;
 }
 
 .taesthetics{
@@ -52,6 +73,7 @@ li {
   text-align: left;
   line-height: 180%;
   background: white;
+  padding: 20px;
 }
 
 .timportance{
@@ -60,6 +82,7 @@ li {
   text-align: left;
   line-height: 180%;
   background: white;
+  padding: 20px;
 }
 
 .tusability{
@@ -68,6 +91,7 @@ li {
   text-align: left;
   line-height: 180%;
   background: white;
+  padding: 20px;
 }
 
 .header {
@@ -75,12 +99,12 @@ li {
   background: white;
   bottom:0px;
   text-align: center;
-  font-size: 3.5vw;
-  font-family: master of break, bebas neue, bebas, helvetica, arial;
+  font-size: 4vw;
+  font-family: bebas neue, master of break, bebas, helvetica, arial;
   color: black;
   letter-spacing: -0.05em;
   width:100%;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -89,7 +113,7 @@ li {
 
 
 .menu{
-width: 250px;
+width: 260px;
 position: fixed;
 top: 0px;
 z-index:20;
@@ -103,12 +127,12 @@ border-left:1px solid gray;
 }
 
 .menu a {
-  color:#fff;
+  color:black;
   text-decoration: none;
 }
 
 .m-styles {
-left: -250px;
+left: -260px;
 }
 
 .m-styles.active {
@@ -117,7 +141,7 @@ left: -250px;
 }
 
 .m-texts {
-right: -250px;
+right: -260px;
 }
 
 .m-texts.active {
@@ -135,8 +159,10 @@ padding: 10px;
 display: inline-block;
 margin: 2px;
 font-size: 30px;
-color: white;
-background-color: darkgrey;
+color: black;
+background-color: white;
+border-style: solid;
+border-color: black;
 cursor: pointer;
 }
 
@@ -183,7 +209,7 @@ cursor: pointer;
   top: 3px;
   padding: 10px;
   z-index: 2;
-  font-family: master of break, bebas neue, bebas, helvetica;
+  font-family: bebas neue, master of break, bebas neue, bebas, helvetica;
   font-size: 40px;
   background-color: black;
   cursor: pointer;
@@ -198,7 +224,7 @@ cursor: pointer;
   top: 3px;
   padding: 10px;
   z-index: 2;
-  font-family: master of break, bebas neue, bebas, helvetica;
+  font-family: bebas neue, master of break, bebas neue, bebas, helvetica;
   font-size: 40px;
   background-color: black;
   cursor: pointer;
@@ -224,7 +250,7 @@ cursor: pointer;
 
 
 .item img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 02s;
 }
 
@@ -291,7 +317,9 @@ body.change-red h4{
 body.change-red .b-orange{
   color: NavajoWhite;
 }
-
+body.change-red {
+  background: red;
+}
 
 
 
@@ -300,7 +328,7 @@ body.change-blue h1 {
   background: blue;
 }
 body.change-blue {
-  background-color: blue;
+  background: blue;
   color: white;
 }
 body.change-blue .header{
@@ -342,12 +370,13 @@ body.change-blue h4{
 
 
 
+
 body.change-green h1 {
   color: green;
   background: lightgreen;
 }
 body.change-green {
-  background-color: lightgreen;
+  background: lightgreen;
   color: black;
 }
 body.change-green .header{
@@ -393,7 +422,7 @@ body.change-yellow h1 {
   background: lightyellow;
 }
 body.change-yellow {
-  background-color: lightyellow;
+  background: lightyellow;
   color: black;
 }
 body.change-yellow .header{
@@ -438,7 +467,7 @@ body.change-pink h1 {
   background: mistyrose;
 }
 body.change-pink{
-  background-color: mistyrose;
+  background: mistyrose;
   color: black;
 }
 body.change-pink .header{
@@ -484,7 +513,7 @@ body.change-purple h1 {
   background: lavender;
 }
 body.change-purple {
-  background-color: lavender;
+  background: lavender;
   color: purple;
 }
 body.change-purple .header{
@@ -532,7 +561,7 @@ body.change-orange h1 {
   background: peachpuff;
 }
 body.change-orange{
-  background-color: peachpuff;
+  background: peachpuff;
   color: black;
 }
 body.change-orange .header{
