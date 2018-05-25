@@ -14,29 +14,26 @@ $(document).ready(function() {
       $(this).removeClass("active");
     });
 
-    $('.b-style1').click(function() {
-      $('body').toggleClass('change-style1');
-    });
-
-    $('.b-style2').click(function() {
-      $('body').toggleClass('change-style2');
-    });
-
-    $('.b-style3').click(function() {
-      $('body').toggleClass('change-style2');
+    $('.b-monochrome').click(function() {
+      $("body").removeClass();
+      $('body').toggleClass('change-monochrome');
     });
 
     $('.b-red').click(function() {
+      $("body").removeClass();
       $('body').toggleClass('change-red');
     });
 
     $('.b-blue').click(function() {
+      $("body").removeClass();
       $('body').toggleClass('change-blue');
     });
     $('.b-green').click(function() {
+      $("body").removeClass();
       $('body').toggleClass('change-green');
     });
     $('.b-pink').click(function() {
+      $("body").removeClass();
       $('body').toggleClass('change-pink');
     });
     $('.b-yellow').click(function() {
@@ -49,14 +46,19 @@ $(document).ready(function() {
       $('body').toggleClass('change-orange');
     });
     $('.b-smalltext').click(function() {
+      $("body").removeClass();
       $('body').toggleClass('change-smalltext');
     });
     $('.b-mediumtext').click(function() {
+      $("body").removeClass();
       $('body').toggleClass('change-mediumtext');
     });
     $('.b-largetext').click(function() {
+      $("body").removeClass();
       $('body').toggleClass('change-largetext');
     });
+
+
 // Add jQuery here
 
 // EACH CLICK FUCNTION TARGETS THE correct .b-tag FROM THE NAVIGATION

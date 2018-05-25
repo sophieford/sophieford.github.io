@@ -98,6 +98,13 @@ overflow: hidden;
 transition: 1s;
 background-color: white;
 height: 100vh;
+border-right:1px solid gray;
+border-left:1px solid gray;
+}
+
+.menu a {
+  color:#fff;
+  text-decoration: none;
 }
 
 .m-styles {
@@ -215,10 +222,17 @@ cursor: pointer;
 
 /* STOP IMAGES FROM GOING OUTSIDE THEIR WIDTH */
 
+
+.item img:hover {
+    transform: scale(1.2);
+    transition: 02s;
+}
+
 .item img {
   max-width:100%;
   padding: 10px;
   width: 800px;
+  transition: 02s;
 }
 
 /* HELPER CLASSES FOR JS TO HIDE AND SHOW */
